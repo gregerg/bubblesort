@@ -1,0 +1,69 @@
+body {
+  text-align:center;
+  color:#000;
+  font-family:helvetica;
+  font-size:25px;
+  background:url(stardust.png);
+  height:100%
+}
+
+svg {
+  background-color:transparent;
+  text-align:center;
+  margin:0 auto;
+  margin:0 auto
+}
+
+.player {
+  fill:orange;
+  z-index:100
+}
+
+.sorted {
+  fill:rgba(200,0,200,0.03);
+  stroke:#fff;
+  stroke-width:1px;
+  stroke-opacity:.5
+}
+
+.bubble {
+  fill:orange;
+  fill-opacity:.03;
+  stroke:#fff;
+  stroke-width:1px;
+  stroke-opacity:.5
+}
+
+.current span {
+  color:orange
+}
+
+.collisions span {
+  color:orange
+}
+
+.scoreboard {
+  width:100%;
+  color:#fff;
+  opacity:.5;
+  position:absolute
+}
+
+.sliders {
+  padding:1px;
+  text-align:left;
+  position:relative;
+  opacity:.5
+}
+
+label {
+  color:orange;
+  margin:5px
+}
+
+footer {
+  font-size:7px;
+  font-family:helvetica;
+  color:#fff;
+  opacity:.5
+}

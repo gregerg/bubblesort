@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='styles.css' rel='stylesheet' type='css'>
+
+  <title></title>
+</head>
+
+<body>
+  <div class="scoreboard">
+    <div class="current">
+      Number of Swaps: <span>0</span>
+    </div>
+  </div>
+
+  <div class="sliders">
+    <label>Min Radius</label><input id="radiusMin" max="50" min="1" onchange=
+    "optionChange(this.id, this.value)" step="1" type="range" value="2">
+  </div>
+
+  <div class="sliders">
+    <label>Max Radius</label><input id="radiusMax" max="200" min="25" onchange=
+    "optionChange(this.id, this.value)" step="5" type="range" value="50">
+  </div>
+
+  <div class="sliders">
+    <label>Speed</label><input id="speed" max="50" min="0" onchange=
+    "optionChange(this.id, this.value)" step="5" type="range" value="25">
+  </div>
+
+  <div class="sliders">
+    <label>Delay</label><input id="delay" max="50" min="0" onchange=
+    "optionChange(this.id, this.value)" step="5" type="range" value="25">
+  </div>
+
+  <div class="sliders">
+    <label>Bubbles</label><input id="bubbles" max="50" min="10" onchange=
+    "optionChange(this.id, this.value)" step="1" type="range" value="15">
+  </div>
+
+  <script src="d3.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script src='bubblesort.js'></script>
+
+  <footer>
+    Background pattern from subtlepatterns.com
+  </footer>
+</body>
+</html>
